@@ -2,7 +2,15 @@
 
 En esta carpeta podrás encontrar los pasos a seguir para configurar las integraciones Gemini + Telegram:
 
-# Integración del modelo Gemini - 2.5 flash LLM
+<div>
+    <div align="center">
+    <img src="notificacion_telegram.png"/>
+</div>
+
+
+## Integración del modelo Gemini - 2.5 flash LLM
+
+<img src="https://darwin-public.s3.eu-west-1.amazonaws.com/framer/integration_logos/Google_Gemini.webp" style="float: right; width: 30%; margin-top:10%"/>
 
 Utilice la API de Gemini en su versión 2.5 flash para solicitar la KEY API, tenemos que seguir los siguientes pasos:
 
@@ -29,9 +37,11 @@ Precio
 
 ---
 
-# Funcionalidad del bot de Telegram
+## Funcionalidad del bot de Telegram
 
 Para poder tener funcionando nuestro bot, es importante que sigamos los siguientes pasos: 
+
+<img src="https://static.wixstatic.com/media/10a674_03dc67dba3454807abac3456c1b684a9~mv2.png/v1/fill/w_448,h_316,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/10a674_03dc67dba3454807abac3456c1b684a9~mv2.png" style="float: right; width: 30%; margin-top:10%"/>
 
 ## Creación del Bot
 1. Presionaremos el botón de buscador.
@@ -42,6 +52,8 @@ Para poder tener funcionando nuestro bot, es importante que sigamos los siguient
 6. Aparecerá el token (es importante que lo guardemos).
 7. Resérvala para ponerla en la línea 11 del archivo [alerts_notify.py](alerts_notify.py).
 
+<img src="https://i.pinimg.com/736x/10/d7/6c/10d76cdc0aca5fdadf110d316e898c9e.jpg" style="float: right; width: 23%; height:10%; margin-top:12%; border-radius: 9px;"/>
+
 ## Creamos el canal de Telegram
 1. Iremos a la pestaña de chats.
 2. Presionaremos el botón de Nuevo mensaje .
@@ -51,9 +63,10 @@ Para poder tener funcionando nuestro bot, es importante que sigamos los siguient
 6. Lo configuramos privado y siguiente.
 7. Una vez creado, nos aparecerá nuestro canal donde podremos ver los mensajes del canal generados por el bot.
 
-## Agregamos el bot
+## Agregamos el bot al canal
 1. Presionamos el botón que dice el nombre de nuestro canal Operations Manager.
 2. Seleccionamos administradores.
+<img src="https://telegram.org/file/464001916/10d69/wMJtQWE_ZwI.17701.png/f4e97997cb38fc577a" style="float: right; width: 20%;"/>
 3. Añadir administrador.
 4. Ponemos el nombre de nuestro bot: ```@rappi_monitoring_bot```
 5. Presionamos el botón de guardar cambios.
@@ -82,3 +95,8 @@ Si se hace el request cada 2 horas para 14 zonas, eso equivale a 12 requests por
 Suponiendo que cada request genere unos 500 tokens y el costo sea aproximadamente $0.0015 USD por 1,000 tokens, el gasto diario sería alrededor de $0.13 USD/día, o unos $3.80 USD al mes. 
 
 **Nota:** El costo real puede variar según la cantidad exacta de tokens generados por cada request y los precios oficiales del plan que uses.
+
+<br>
+    <div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rappi_logo.svg/1280px-Rappi_logo.svg.png" width="120"/>
+</div>

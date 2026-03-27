@@ -1,5 +1,7 @@
 # Repositorio con la solución a un caso técnico para el puesto de AI Engineer en Rappi 💼
 
+<img src="https://images.rappi.com/soy-rappi-api-co/Iconos_2_c73604512a.png" style="float: right; width: 200px; margin-left: 20px;"/>
+
 **Contexto del Problema**
 
 Rappi opera flotas de repartidores en tiempo real en cientos de zonas a través de 9 países. El equipo de Operations depende de la disponibilidad de repartidores conectados para atender la demanda de órdenes de forma sostenible. Cuando la oferta de repartidores y la demanda de órdenes no están balanceadas, se generan dos tipos de problemas:
@@ -18,6 +20,8 @@ Ratio = Órdenes / Repartidores Conectados
 ```
 
 El caso está dividido en tres módulos progresivos. El Módulo 1 es el fundamento analítico: sin él, los Módulos 2 y 3 no tienen base. Prioriza en ese orden.
+
+<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/anaconda-python-distribution-icon.png" style="float: right; width: 180px; margin-left: 2%;"/>
 
 ---
 
@@ -85,10 +89,12 @@ rappi-case
 
 ```
 
+<img src="https://blog.wyrihaximus.net/images/posts/daftpunktocat-cat.gif" style="float: right; width: 180px; margin-left: 3%;"/>
+
 
 # Anexos 
 
-### ¿Cómo crear el ambiente de conda?
+### Entorno de desarrollo anaconda
 El entorno de desarrollo fue configurado utilizando Conda (2026). Siguiendo buenas prácticas de nomenclatura, el ambiente se denominó ```rappi_ai_project_py311```, integrando el nombre de la empresa, el tipo de proyecto y la versión de Python utilizada, lo que facilita su identificación y mantenimiento.
 
 Se seleccionó Python 3.11 como versión base debido a su compatibilidad con el stack tecnológico del proyecto (LangChain, requests, Telegram API, pandas, seaborn y matplotlib), así como por sus mejoras de rendimiento frente a versiones anteriores como 3.10. Además, cuenta con soporte oficial hasta octubre de 2027, lo que asegura estabilidad, escalabilidad y mantenimiento a largo plazo.
@@ -101,3 +107,8 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 
 2. How To install LangChain
 https://docs.langchain.com/oss/python/langchain/install
+
+<br>
+    <div align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rappi_logo.svg/1280px-Rappi_logo.svg.png" width="120"/>
+</div>
